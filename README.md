@@ -1,8 +1,8 @@
-# in_it_for_Polytech
+# in_IT_for_Polytech
 
-#Project (no name)
+#Project Little project
 
-**HTML, CSS, JS, Python, SQL**
+**HTML, CSS, JS**
 
 
 
