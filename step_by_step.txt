@@ -7,9 +7,17 @@ git commit -m 'add file my step in project'
 git status
 git push
 
+git branch -m main master
+git fetch origin
+git branch -u origin/master master
+git remote set-head origin -a
 
 
+$git config --global user.name 'Vadim'
+$git config --global user.email "r@mail_ru'
+$git config --list # посмотреть настройки
 
+### add text for hot fix
 
 
 
