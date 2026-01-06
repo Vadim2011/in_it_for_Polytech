@@ -1,10 +1,11 @@
 git clone git@github.com:Vadim2011/in_it_for_Polytech.git
-
 cd ./in_it_for_Polytech/
-
 ls
-
 git status
+git add .
+git commit -m 'add file my step in project'
+git status
+git push
 
 
 
