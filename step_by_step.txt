@@ -49,12 +49,18 @@ git push <remote-name> <branch-name>
 # залить изменения нет ветки
 git push --set-upstream origin develop
 
+
 1
 2
 3
 asdf asdf asdf
 4
 5
+
+
+asdf adsf 
+asdf asdf asdf
+asdfasdf 
 
 
 add text
