@@ -22,6 +22,70 @@ $git config --list # посмотреть настройки
 
 ### add text for hot fix
 
+ssh-keygen -t ed25519
+
+~/.ssh/config
+Host github.com
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/personal_key
+    IdentitiesOnly yes
+
+Переходим в "Settings" -> "SSH and GPG keys"
+
+(ssh)
+git remote set-url origin git@github.com:Vadim2011/in_it_for_Polytech.git
+
+(https)
+git remote add origin https://github.com/ИМЯПОЛЬЗОВАТЕЛЯ/РЕПОЗИТОРИЙ.git
+
+git push --set-upstream origin develop
+
+git remote -v
+
+# залить изменения ветка уже есть
+git push <remote-name> <branch-name>
+
+# залить изменения нет ветки
+git push --set-upstream origin develop
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
