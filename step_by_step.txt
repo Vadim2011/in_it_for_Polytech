@@ -1,3 +1,6 @@
+1) install git 
+git --version
+
 git clone git@github.com:Vadim2011/in_it_for_Polytech.git
 cd ./in_it_for_Polytech/
 ls
