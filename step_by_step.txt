@@ -99,8 +99,19 @@ git commit -am 'asdf' # not commit untracted file
 git mv old_f new_f
 git rm file
 
+.gitignore
+### Python template
+# Byte-compiled / optimized / DLL files
+__pycache__/  # dir
+*.py[cod]     # *.py | *.pyc | *.pyo | *.pyd
+docker_compose.yaml
+log/
+resources/products.json
 
 
+tag for version  (release)
+1 аннотированные теги (объекты в гите)  git tag -a 2025.0.0.1 'first release'
+2 легковесные теги (просто записи)   git tag v1
 
 
 
