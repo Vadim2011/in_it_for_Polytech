@@ -94,6 +94,11 @@ git reset --soft HEAD^1
 2) git config --global ....
 3) git config --local ....
 
+git commit -am 'asdf' # not commit untracted file
+
+git mv old_f new_f
+git rm file
+
 
 
 
